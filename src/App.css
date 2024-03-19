@@ -1,0 +1,32 @@
+.box{
+  border: 1px solid black;
+  width: 500px;
+  margin: 30px;
+  padding: 65px;
+  display: flex;
+  justify-content: center;
+}
+.item-img{
+  width: 400px;
+  height: 400px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+
+}
+.button{
+  border: none;
+  width: 60px;
+  height: 65px;
+  background-color: white;
+  padding: 0;
+
+}
+.button:hover{
+  border: 5px solid darkcyan;
+}
+.img-size{
+  width: 50px;
+  height: 55px;
+}
