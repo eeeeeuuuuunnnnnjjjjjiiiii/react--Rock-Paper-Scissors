@@ -67,16 +67,21 @@ function App() {
   };
 
   return (
-    <div>
-      <div className='main'>
+    <div className='container'>
+      <div className='color'>
+        <h1 className='game-title'>가위바위보 GAME</h1>
+      </div>
+      <div className='main padding-top margin-top'>
+      
         <Box title="You" item={userSelect} result={result}/>
         <Box title="Computer" item={computerSelect} result={result}/>
       </div>
       <div className='main'>
-        <button onClick={() => play("scissors")} className='button'>가위</button>
-        <button onClick={() => play("rock")} className='button'>바위</button>
-        <button onClick={() => play("paper")} className='button'>보</button>
+        <button onClick={() => play("scissors")} className='button scissors'></button>
+        <button onClick={() => play("rock")} className='button rock'></button>
+        <button onClick={() => play("paper")} className='button paper'></button>
       </div>
+      <div className='color position'></div>
     </div>
   );
 }
